@@ -113,12 +113,14 @@ button{
 @media screen and (max-width: 800px) {
     body {
         display: flex;
-        flex-direction: column-reverse;
-    }
-    .main {
-        order: 2;
+        flex-direction: column;
     }
     .artbox {
         order: 1;
+        width: 100%;
+        height: 300px;
+    }
+    main {
+        order: 2;
     }
 }
